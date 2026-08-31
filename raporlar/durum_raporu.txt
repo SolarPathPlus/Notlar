@@ -1,46 +1,31 @@
 SolarPath+ Proje Durum Raporu ve Görev Listesi
+
 Tamamlanan Çalışmalar (Yapılanlar)
-
     Web Sitesi: Projeye ait temel web platformu oluşturuldu.
-
     3B Tasarım: Projenin 3 boyutlu taslak çizimleri ve modellemeleri hazırlandı.
-
     Paket Yöneticisi: Proje paket yöneticisi yapısı kurgulandı.
-
     Yönetim Panelleri: Kullanıcı ve yönetici (Admin) panellerinin temel altyapısı kuruldu.
-
     Dokümantasyon: Projenin ana dokümantasyon metinleri oluşturuldu.
-
     Malzeme Listesi: Kullanılacak donanım ve bileşenlerin malzeme listesi belirlendi.
 
 Planlanan Çalışmalar (Yapılacaklar)
 
 1. Donanım ve Sistem Mimarisi
-
     Devre Şeması: Elektrik ve elektronik devre şemalarının çizilmesi.
-
     Akış Şeması: Sistem çalışma mantığını gösteren akış diyagramlarının hazırlanması.
-
     Gömülü Yazılım (Kodlama): Devre bileşenlerinin kontrol kodlarının yazılması.
-
     Detaylı İç Mimari: Mekanik ve tasarımsal detayların derinleştirilerek iç mimari düzenlemelerin tamamlanması.
 
 2. Web ve Yazılım Gelistirme
-
     Panel Tasarımı ve Kodlaması: Kullanıcı ve yönetici panellerinin arayüz tasarımlarının yapılması ve ön/arka yüz (Front-end/Back-end) kodlamalarının tamamlanması.
-
     Entegrasyon: Web siteleri ile proje dokümanları ve verileri arasındaki bağlantıların kurulması.
 
 3. Senkronizasyon ve Sorun Giderme
-
     Fiziksel ve Sanal Panel Senkronizasyonu: Physical-virtual çakışmalarının çözülmesi (ör. Fiziksel bir şalter ile sistem açıldıktan sonra sanal panelden kapatıldığında, şalterin fiziksel konumunun 'açık' kalıp sistemin 'kapalı' görünmesinden kaynaklanan durum uyumsuzluklarının giderilmesi).
 
 4. Dokümantasyon ve Sunum Hazırlıkları
-
     Kapsamlı Dokümantasyon: Detaylı teknik ve idari proje dokümanlarının hazırlanması.
-
     Sunum İçeriği: Proje sunum metinlerinin ve sunum akışının oluşturulması.
 
 5. Takım Koordinasyonu
-
     İletişim ve Bilgilendirme: Takım içi iletişim süreçlerinin yürütülmesi ve düzenli durum bilgilendirmelerinin yapılması.
