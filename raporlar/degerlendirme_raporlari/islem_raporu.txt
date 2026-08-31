@@ -1,0 +1,41 @@
+SolarPath+
+1. Aşama: Veri Girişi
+
+Yönetim Paneli tarafından sisteme bazı tanımlamalar yapılır.
+- Şifre
+- 2FA etkinleştirme durumu
+- Doğrulama için kart kullanılma durumu
+- Tahmini veri teslimi aralığı
+- İletişim Bilgileri
+
+2. Aşama: Değişkenlerin Kullanımı
+
+Elde edilen tüm veriler yerel değişkenlere kaydedilir. Bu değerler sonradan düzenlenebilir olmalıdır ki proje taşınabilir olsun. Bu amaç doğrultusunda yapılacak şey değişkenlerin ‘const’ anahtar kelimesi kullanılmadan tanımlanmasıdır.
+
+3. Aşama: Sensör Kalibrasyonu
+
+Alınan değerler kullanılarak sensörlere ait metotların değişkenlerine veriler gönderilecektir. 
+
+4. Aşama: Sensör Kontrolü
+
+SolarPath+, ilk gerçek açılışta kendi parçalarının doğruluğunu ölçer. Eğer bu doğruluk seviyesi yüksekse sıradaki işleme geçilir. Eğer bazı sensörlerden veri girişi yoksa bu sensörlerin çalışmadığı anlamına gelecek ve sistem yöneticiye uyarı verecek. 
+Bu uyarı arka kapaklardan üstten birincinin içerisindeki LCD ekrandan verilecektir. Güç tüketimini düşürmek için bu ekran sadece ama sadece bir butona basıldığında açılacak ve kısa süre sonra buton tekrar kullanılmazsa backlight (arka ışık) kapanacak. Bu LCD ekranın tükettiği elektrik miktarı sürekli ışık üretiminden dolayı yüksektir. Kağıt ekran kullanımı da mümkün olmadığı için böyle bir yol izlenecektir. Ekranın kullanılamayacağı durumlarda ise de LED lambalar ile bir şeyler açıklanmaya çalışılacaktır. 
+Sensörlerin çalışma kontrolü için bir diğer kesinlik sağlama aşaması da kullanıcıdan bazı şeyler istenmesidir. Örnek olarak kızılötesi sensör verilebilir. İlk açılışta kullanıcıdan kızılötesi sensöre kısa aralıklarla bir nesneyi yaklaştırıp uzaklaştırması istenebilir. 
+
+5. Aşama: İlk Şarj
+
+Kullanıcı, ürünü gerekli yere yerleştirmeden önce ilk şarjı yapmalıdır. Bu, projenin özellikle Güneş ışınlarının dik düşmediği ve sistemin de bu duruma adapte olmadığı, aynı zamanda da farklı şekillerde hareket ettirilmediği durumlarda ürünün elektrik yokluğundan kapanmasının önüne geçilebilecek en büyük noktadır. 
+
+6. Aşama: Yerleşim
+
+Cihaz, belli bir şekilde ilgili yere yerleştirilmelidir. Simetrik hazırlandığı için nesne olarak nereye yerleştirildiğinin bir önemi yoktur fakat hangi pozisyonda yerleştirildiği bir miktar da olsa önem teşkil etmektedir. Kapakların duvar bölümlerine denk gelmemesi önemli bir husustur. Sonuç olarak bu kapaklar cihazlar arası veri transferlerinde ve troubleshoot programlarında sıkça kullanılacaktır. 
+
+7. Aşama: Taşınma
+
+Cihaz, aynı zamanda el arabası tarzı bir taşıma aleti ile gelmez. Alt tarafta bulunacak tekerlekler kullanılmadıkları takdirde projenin içine doğru kapanacak, taşınma anlarında ise bunlar açılıp sabitlenecek. Bu sayede bir valiz gibi kolayca sürüklenebilecektir. 
+
+8. Aşama: Otomasyon Sisteme Geçiş
+
+Ürün, arka planda sürekli loglama mekanizmasını aktif tutacağı için Deneyap Kart 1A’nın 8MB PSRAM’i içerisinde LittleFS dosya sisteminde depolanacak. Bu loglar belli bir sınırı doldurduğundaysa silinmeye en baştan başlanacak. Bu sayede veriler sürekli mümkün en güncel tarihlere ait olacak. 
+Yöneticiye ait bir mobil cihaz kullanılarak cihazlar bağlandığında loglar mobil cihaza geçirilir ve buradan da verilerin yönetildiği merkeze sunulur. Aylık olarak bu veriler de internet sitesinde kullanıldığından eski veriler hakkında da TIG tarafından saklanma garantisi verilmez. 
+Buradan sonrası artık düzenli bakımlar yapıldığı takdirde SolarPath+’a verilir. 
