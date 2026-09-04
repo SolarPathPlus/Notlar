@@ -1,6 +1,6 @@
 SolarPath+ Proje Durum Raporu ve Görev Listesi
 
-Tamamlanan Çalışmalar (Yapılanlar)
+Tamamlanan Çalışmalar
     Web Sitesi: Projeye ait temel web platformu oluşturuldu.
     3B Tasarım: Projenin 3 boyutlu taslak çizimleri ve modellemeleri hazırlandı.
     Paket Yöneticisi: Proje paket yöneticisi yapısı kurgulandı.
@@ -8,24 +8,14 @@ Tamamlanan Çalışmalar (Yapılanlar)
     Dokümantasyon: Projenin ana dokümantasyon metinleri oluşturuldu.
     Malzeme Listesi: Kullanılacak donanım ve bileşenlerin malzeme listesi belirlendi.
 
-Planlanan Çalışmalar (Yapılacaklar)
-
-1. Donanım ve Sistem Mimarisi
-    Devre Şeması: Elektrik ve elektronik devre şemalarının çizilmesi.
-    Akış Şeması: Sistem çalışma mantığını gösteren akış diyagramlarının hazırlanması.
-    Gömülü Yazılım (Kodlama): Devre bileşenlerinin kontrol kodlarının yazılması.
-    Detaylı İç Mimari: Mekanik ve tasarımsal detayların derinleştirilerek iç mimari düzenlemelerin tamamlanması.
-
-2. Web ve Yazılım Gelistirme
-    Panel Tasarımı ve Kodlaması: Kullanıcı ve yönetici panellerinin arayüz tasarımlarının yapılması ve ön/arka yüz (Front-end/Back-end) kodlamalarının tamamlanması.
-    Entegrasyon: Web siteleri ile proje dokümanları ve verileri arasındaki bağlantıların kurulması.
-
-3. Senkronizasyon ve Sorun Giderme
-    Fiziksel ve Sanal Panel Senkronizasyonu: Physical-virtual çakışmalarının çözülmesi (ör. Fiziksel bir şalter ile sistem açıldıktan sonra sanal panelden kapatıldığında, şalterin fiziksel konumunun 'açık' kalıp sistemin 'kapalı' görünmesinden kaynaklanan durum uyumsuzluklarının giderilmesi).
-
-4. Dokümantasyon ve Sunum Hazırlıkları
+Planlanan Çalışmalar (Malzemesiz Yapılabilecekler - Simülasyon / Tasarım / Dokümantasyon)
+    Akış Şeması: Sistem çalışma mantığını ve işlem sırasını gösteren akış diyagramlarının hazırlanması.
+    Devre Şeması (Sanal): Tinkercad veya benzeri simülasyon platformları üzerinden devre şemalarının çizilmesi ve sanal testlerin yürütülmesi.
+    Detaylı İç Mimari: Projenin mekanik ve tasarımsal detaylarının 3B tasarım araçlarında derinleştirilerek iç mimari düzenlemelerin tamamlanması.
     Kapsamlı Dokümantasyon: Detaylı teknik ve idari proje dokümanlarının hazırlanması.
-    Sunum İçeriği: Proje sunum metinlerinin ve sunum akışının oluşturulması.
+    Sunum Hazırlığı: Proje sunum metinlerinin ve sunum akışının oluşturulması.
+    Takım Koordinasyonu: Takım içi iletişim süreçlerinin yürütülmesi ve düzenli durum bilgilendirmelerinin yapılması.
 
-5. Takım Koordinasyonu
-    İletişim ve Bilgilendirme: Takım içi iletişim süreçlerinin yürütülmesi ve düzenli durum bilgilendirmelerinin yapılması.
+Planlanan Çalışmalar (Malzeme Bekleyenler - Fiziksel Kurulum ve Testler)
+    Fiziksel Devre Kurulumu: Bileşenlerin bord/kart üzerine fiziksel montajı.
+    Fiziksel ve Sanal Panel Senkronizasyonu: Gerçek ortamdaki fiziksel şalter ile sanal panel arasındaki durum uyumsuzluklarının (Physical-Virtual çakışmaları) test edilmesi ve çözülmesi.
